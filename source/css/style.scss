@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/*!
+ *
+ * css-scaffold
+ * https://github.com/csshugs/css-scaffold
+ *
+ */
+// /*------------------------------------*\
+//     #MODIFICATIONS
+// \*------------------------------------*/
+
+//$inuit-base-background-color
+
+$inuit-base-font-size:14px;
+$inuit-base-line-height: round(1.5*$inuit-base-font-size);
+$inuit-base-text-color:#939393;
+
+// /*------------------------------------*\
+//     #SETTINGS
+// \*------------------------------------*/
+@import "ui/settings/_colors";
+@import "ui/settings/_typography";
+@import "../../node_modules/inuit-defaults/_settings.defaults";
+//$breakpoints:(
+//    "l" "screen and (min-width: 1024px)",
+//    "m" "screen and (min-width: 481px) and (max-width: 1023px)",
+//    "s" "screen and (max-width: 480px)",
+//);
+@import "../../node_modules/inuit-responsive-settings/_settings.responsive";
+
+// /*------------------------------------*\
+//     #TOOLS
+// \*------------------------------------*/
+//@import "ui/tools/*.*";
+@import "../../node_modules/inuit-functions/_tools.functions";
+@import "../../node_modules/inuit-mixins/_tools.mixins";
+@import "../../node_modules/inuit-responsive-tools/_tools.responsive";
+
+// /*------------------------------------*\
+//     #GENERIC
+// \*------------------------------------*/
+@import "../../node_modules/inuit-box-sizing/_generic.box-sizing";
+@import "../../node_modules/inuit-normalize/_generic.normalize";
+@import "../../node_modules/inuit-reset/_generic.reset";
+@import "../../node_modules/inuit-shared/_generic.shared";
+
+// /*------------------------------------*\
+//     #BASE
+// \*------------------------------------*/
+@import "../../node_modules/inuit-page/_base.page";
+@import "../../node_modules/inuit-headings/_base.headings";
+@import "../../node_modules/inuit-paragraphs/_base.paragraphs";
+@import "../../node_modules/inuit-lists/_base.lists";
+@import "../../node_modules/inuit-images/_base.images";
+//@import "ui/base/*.*";
+
+// /*------------------------------------*\
+//     #OBJECTS
+// \*------------------------------------*/
+@import "../../node_modules/inuit-block/_objects.block";
+@import "../../node_modules/inuit-box/_objects.box";
+@import "../../node_modules/inuit-buttons/_objects.buttons";
+@import "../../node_modules/inuit-flag/_objects.flag";
+$inuit-enable-layout--middle:true;
+@import "../../node_modules/inuit-layout/_objects.layout";
+@import "../../node_modules/inuit-list-bare/_objects.list-bare";
+@import "../../node_modules/inuit-list-block/_objects.list-block";
+@import "../../node_modules/inuit-list-inline/_objects.list-inline";
+@import "../../node_modules/inuit-list-ui/_objects.list-ui";
+// @import "../../node_modules/inuit-media/_objects.media";
+@import "../../node_modules/inuit-pack/_objects.pack";
+// @import "../../node_modules/inuit-split/_objects.split";
+// @import "../../node_modules/inuit-tables/_objects.tables";
+@import "../../node_modules/inuit-tabs/_objects.tabs";
+// @import "../../node_modules/inuit-text-input/_objects.text-input";
+//@import "ui/objects/*.*";
+
+// /*------------------------------------*\
+//     #COMPONENTS
+// \*------------------------------------*/
+//@import "ui/components/*.*";
+
+// /*------------------------------------*\
+//     #THEME
+// \*------------------------------------*/
+//@import "ui/theme/*.*";
+
+// /*------------------------------------*\
+//     #PLUGINS
+// \*------------------------------------*/
+//@import "ui/plugins/*.*";
+
+// /*------------------------------------*\
+//     #TRUMPS
+// \*------------------------------------*/
+@import "../../node_modules/inuit-clearfix/_trumps.clearfix";
+@import "../../node_modules/inuit-headings-trumps/_trumps.headings";
+@import "../../node_modules/inuit-spacing/_trumps.spacing";
+@import "../../node_modules/inuit-print/_trumps.print";
+//@import "ui/trumps/*.*";
+
+@import "ui/shame";
